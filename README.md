@@ -97,3 +97,25 @@ smembers dataSet
 ```
 srem dataSet "Jon"
 ```
+
+### Create or insert data into hash
+```
+HSET person name Jon
+```
+
+### Get data from hash
+```
+HGET person name
+```
+
+### Check if data exist in hash
+```
+HEXISTS person name
+```
+
+### Remove data from hash
+```
+HDEL person name
+```
+
+
